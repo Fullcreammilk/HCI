@@ -198,7 +198,7 @@ public class Main extends JFrame implements ActionListener{
             canvas.repaint();
         } else if (e.getActionCommand().equals("识别")) {
             // 识别结果；
-            knn=new KNN(5);
+            knn=new KNN(1);
             File fileDir=new File("D:\\save\\");
             String[] fileList=fileDir.list();
             for(int i=0;i<fileList.length;i++) {
