@@ -112,7 +112,7 @@ public class Main extends JFrame implements ActionListener{
     public Main()
     {
         super("HCI");
-        this.setSize(400,521);
+        this.setSize(1000,800);
         this.setLayout(new FlowLayout());
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
         this.setLocationRelativeTo(null);
@@ -146,7 +146,7 @@ public class Main extends JFrame implements ActionListener{
 
         canvas = new HandWriteCanvas(this);
         canvas.setBackground(Color.BLACK);
-        canvas.setBounds(0,50,400,400);
+        canvas.setBounds(0,50,1000,650);
 
         JButton btn1 = new JButton("保存");
         JButton btn2 = new JButton("识别");
